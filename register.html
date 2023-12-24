@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register | Oshikoya Malik</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:5500/About.html">Home</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/register.html">Register</a>    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="left formpage">
+            <div class="top-circle "></div>
+            <img class="logo" src="altschool_africa.png" alt="AltSchool logo">
+           
+            <div class="aside_main">
+                <h1> 
+                    Learn highly sought
+                    <br>
+                    after skills
+                    <br>
+                    without hassle
+                </h1>
+                <p>Earn a diploma in highly sought after skills</p>
+            </div>
+
+            <div>
+                <footer class="aside_footer">
+                    <section class="aside_permalinks">
+                        <a href="https://twitter.com/altschoolafrica" aria-label="link to AltSchool's Twitter">
+                            <img src="Twitter_24px.png" alt="Twitter">                            
+                        </a>
+                        <a href="https://instagram.com/altschoolafrica" aria-label="link to AltSchool's Instagram">
+                            <img src="Instagram_26px.png" alt="Instagram">
+                        </a>
+                        <a href="https://facebook.com/altschoolafrica" aria-label="link to AltSchool's Facebook">
+                            <img src="facebook_26px.png" alt="Facebook">
+                        </a>
+                        <a href="https://linkedin.com/altschoolafrica" aria-label="link to AltSchool's linkedin">
+                            <img src="linkedin_24px.png" alt="linkedin">
+                        </a>
+                    </section>
+                    <span class="style_copyRight_CBMaF">
+                        &copy; 2023 AltSchool Africa .All Rights Reserved
+                    </span>
+                </footer> 
+                <div class="bottom-circle"></div>
+            </div>
+        </aside>
+        <main class="right">
+            <article>
+                <header>
+                    <h2>Application Form</h2>
+                    <h4>Fill in your details</h4>
+                </header>
+                <form id="registration_form">
+                    <div class="inputdiv">
+                        <label for="firstName"> 
+                            First Name
+                        </label>
+                        <input type="text" placeholder="Enter first name" id="firstName" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="lastName"> 
+                            Last Name
+                        </label>
+                        <input type="text" placeholder="Enter last name" id="lastName" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="gender">
+                            Gender
+                            </label>
+                            <select id="gender" required aria-required="true">
+                                <option value>select gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>        
+                    </div>
+                    <div class="inputdiv">
+                        <label for="dob"> 
+                            Date of Birth
+                        </label>
+                        <input type="date" placeholder="select age group" id="dob" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="email"> 
+                            Email Address
+                        </label>
+                        <input type="text" placeholder="Enter email address" id="email" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="educationlevel"> 
+                            Education Level
+                        </label>
+                        <select id="educationlevel" required aria-required="true">
+                            <option value>select level of education</option>
+                            <option value="highschool">High School</option>
+                            <option value="undergrad">Undergraduate</option>
+                            <option value="postgrad">Postgraduate</option>
+                        </select>     
+                    </div>
+                    <div class="inputdiv">
+                        <label for="countryofResidence"> 
+                            Country of Residence
+                        </label>
+                        <select id="countryofResidence" required aria-required="true">
+                            <option value>Country of Residence</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="USA">USA</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="France">France</option>
+                        </select>     
+                    </div>
+                    <div class="inputdiv">
+                        <label for="stateCityofResidence"> 
+                            State/City of Residence
+                        </label>
+                        <input type="text" placeholder="Enter your state of residence" id="stateCityofResidence" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="employmentStatus"> 
+                            Employment Status
+                        </label>
+                        <select id="employmentStatus" required aria-required="true">
+                            <option value>select employment status</option>
+                            <option value="employed">employed</option>
+                            <option value="unemployed">Unemployed</option>
+                            <option value="student">Student</option>
+                        </select>     
+                    </div>
+                    <div class="inputdiv">
+                        <label for="phoneNumber"> 
+                            Phone Number
+                        </label>
+                        <input type="text" placeholder="+2348113077177" id="phoneNumber" required aria-required="true">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="schoolId"> 
+                            Choose School
+                        </label>
+                        <select id="schoolId" required aria-required="true">
+                            <option value>Select School</option>
+                            <option value="school1">School of Engineering</option>
+                            <option value="school1">School of Data</option>
+                            <option value="school1">School of Product</option>
+                            <option value="school1">School of Creative Economy</option>
+                            <option value="school1">School of Business</option>
+                        </select>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="courseId"> 
+                            Choose Course of Study
+                        </label>
+                        <select id="courseId" required aria-required="true">
+                            <option value>Select Course</option>
+                            <option value="course1">Front_End Engineering</option>
+                            <option value="course1">Back-End Engineering</option>
+                            <option value="course1">Cloud Engineering</option>
+                        </select>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="hearAboutus"> 
+                            How did you hear about us
+                        </label>
+                        <select id="hearAboutus" required aria-required="true">
+                            <option value>select channel</option>
+                            <option value="website">Website</option>
+                            <option value="friend">Friend</option>
+                            <option value="social">Social Media</option>
+                        </select>
+                    </div>  
+                    <div class="inputdiv">
+                        <label for="discountCode"> 
+                            Scholarship/Discount Code
+                        </label>
+                        <input type="text" placeholder="Scholarship or Discount Codes" id="discountCode" required aria-required="true">
+                    </div>             
+                </form>
+                <footer>
+                    <h4>By clicking continue, i agree to
+                        <a href="https://www.altschoolafrica.com/terms" target="_blank">Terms of Use</a>
+                        and i acknowledge that i have read
+                        <a href="https://www.altschoolafrica.com/policy" target="_blank">Privacy Policy</a>
+                    </h4>
+                    <button form="registration_form" type="submit">Proceed</button>
+                    <p>Already have an account?
+                        <a href="http://127.0.0.1:5500/About.html">Sign In</a>
+                    </p>
+                </footer>
+            </article>
+          
+        </main>
+    </div>
+</body>
+</html>
